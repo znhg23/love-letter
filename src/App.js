@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <LoveLetter />
-      <p>Chạm để đọc bức thư siêu sến của MHD</p>
+      <p>Thư gửi Như - Ngày 2</p>
     </div>
   );
 }

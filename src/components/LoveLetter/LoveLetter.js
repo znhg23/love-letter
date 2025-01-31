@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './LoveLetter.css';
-import audioFile from './xinloi.mp3';
+import audioFile from './day2.mp3';
 
 const LoveLetter = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,51 +39,45 @@ const LoveLetter = () => {
       <div className={`letter ${isFullSize ? 'fullSize' : ''}`} onClick={!isFullSize ? handleOpenLetter : handleCloseLetter}>
         <h2>Gửi Như yêu của anh,</h2>
         <p>
-          Mình quen nhau đã gần 2 năm rồi. Đây là cái Tết thứ 2 mà tụi mình đón cùng nhau, và sắp tới cũng là Valentine 
-          thứ 2 anh được ở bên cạnh em. Suốt 2 năm vừa rồi anh đã được cùng em trải qua vô vàn điều quý giá, và anh yêu từng
-          phút giây được ở cạnh người anh yêu để trải nghiệm những điều tuyệt vời đó.
+          "Ngày hôm nay của em thế nào? Còn giận anh nhiều không? Em đã ổn hơn sau cuộc nhậu tối qua chưa? Khang có còn làm em phát 
+          cáu vì sự điên khùng của thằng nhỏ không?..."
         </p>
         <p>
-          Nhưng cũng đã không ít lần anh làm em phải khóc, phải tủi thân vì sự ngây ngô của mình - một đứa trẻ đang tập làm quen
-          với cuộc sống xô bồ của người lớn. Điều kỳ lạ là sau mỗi lần như vậy, em đều bao dung tha thứ cho anh, và vẫn
-          lựa chọn tiếp tục yêu anh, thương anh ngày càng nhiều hơn nữa. Anh thật may mắn khi đã có em ở bên, và anh thật sự yêu em
-          vì điều này.
+          Đó là những điều mà anh thắc mắc suốt ngày hôm nay nhưng không dám nhắn hỏi em trực tiếp, nên anh đành mượn lá thư này làm vật kết 
+          nối giữa hai ta. Có lẽ việc này sẽ cho em sự riêng tư mà em đang cần, nhưng vẫn có thể giữ ấm tình yêu của tụi mình.
         </p>
         <p>
-          Đến lần này, tụi mình lại giận nhau (hay đúng hơn là em giận anh) lại là vì sự khờ dại của anh. Anh đã nghĩ rằng đây là giới
-          hạn của em rồi, và anh đã sợ rằng anh đã mất em rồi. Nhưng em vẫn vậy, em vẫn nói rằng em thương anh, và vẫn chờ đợi anh 
-          thay đổi. Anh thật sự không xứng đáng với em mà.
+          "Em đẹp thật."
         </p>
         <p>
-          Anh đã sai ngay từ trước, từ rất lâu rồi khi đã để em phải cảm thấy bản thân mình không an toàn trong mối quan hệ.
-          Và anh lại càng sai hơn khi đã làm em tổn thương bằng những hành động của mình. Anh đã sai rất nhiều rồi. Và anh 
-          thực sự cảm thấy có lỗi với em, với tình thương của em, và với cả mối quan hệ của tụi mình. Anh xin lỗi em nhiều.
+          Anh đã thốt ra 3 từ đó sau khi xem story và bài đăng của em. Anh vẫn chưa tin được rằng anh may mắn đến mức có một người con gái
+          xinh như vậy, đã và đang ở cùng anh dưới một mái nhà và yêu anh. Em thật xinh trong lớp make-up, nhưng phiên bản xinh nhất
+          của em luôn là lúc em ôm anh ngủ vào mỗi buổi sáng. Đó là động lực để anh có thể đi làm mỗi ngày.
         </p>
         <p>
-          Suốt những ngày qua anh luôn sợ một điều xảy ra: rằng anh sẽ mất em. Anh sợ sẽ mất đi người con gái đã cùng anh vui đùa
-          những lúc cùng nhau nấu ăn, dọn nhà. Anh sợ mất đi người đã theo anh mọi nẻo đường trên con Wave ghẻ đến chiếc Motor mà
-          anh hằng mơ ước. Anh sợ mất đi người đã luôn vực anh dậy, đánh bay mọi sự bất an trong lòng mỗi khi anh gặp vấn đề trong
-          cuộc sống. Anh sợ mất đi người đã luôn luôn bao dung, yêu anh bất chấp những khiếm khuyết mà anh có. Anh sợ mất em.
+          Ngày hôm nay của anh có rất nhiều bất ngờ. Buổi sáng nay khi anh vừa mở mắt, thằng An (đứa còn lại trong nhóm bạn dơ bẩn nhất BMT ngày đó - An, Nhân và Danh)
+          đã đạp cửa xách anh ra khỏi nhà để cùng đi cafe với Nhân. Anh có dẫn theo thẳng em họ của mình tới quán để làm quen với tụi nó.
+          Suốt buổi cafe là những câu chửi và khịa dành cho anh và cân nặng của anh (em đừng lo, chửi và body shaming nhau là cách mà tụi anh thể
+          hiện tình cảm). Hội đồng dơ bẩn nhất BMT đã tuyên án anh "béo quá mức Pickle-ball" và hình phạt là bao bida cả bọn. Mấy thằng chó.
         </p>
         <p>
-          Anh biết rằng để em có thể tha thứ cho anh, để em có thể tin tưởng anh như trước, và không còn sự bất an trong lòng là rất khó.
-          Anh không muốn thúc ép em phải làm những điều đó ngay tức khắc. Anh biết những điều này cần thời gian. Vậy nên em hãy cứ làm những
-          gì mà em thấy thoải mái, để đứa trẻ trong em được chữa lành. 
+          Bất ngờ thứ hai xảy ra khi tụi anh đi đánh bida. Ngày hôm nay anh đã học được cách "Đánh đền điểm" trong bida. Và cũng không bất ngờ lắm,
+          anh đứng bét điểm. Nhưng thằng em họ anh lại là người về nhất, thằng nhỏ có những đường bi tuyệt mĩ đến mức anh và Nhân đã phải quỳ xuống
+          lạy nó ngay trong quán. Nó như là một viên ngọc thô trong giới bida, càng mài càng thô.
         </p>
         <p>
-          Còn anh, anh sẽ thay đổi từng ngày, từng chút từng chút một. Anh sẽ hiểu em hơn, tinh tế hơn, không còn làm em buồn, không
-          còn làm em phải tủi thân vì bản thân anh nữa. Đây không phải là lời hứa, mà là một điều anh sẽ làm. Vì anh yêu em, và anh
-          yêu mối quan hệ của tụi mình.
+          Và khi anh về đến nhà, thứ làm anh bất ngờ là thấy sóng gió gia tộc, mẫu thuẫn gia đình trong chính nhà mình.
+          Thầy Tuấn - người cầm cái - đã luộc mất của cô Huyền - người không bao giờ dằn dưới 17 - 90k tiền Xì dách. Và cô Huyền đã giận dỗi bỏ cơm tối.
+          Em biết ngày hôm nay đến lượt ai phải đi xin lỗi và dỗ vợ rồi đấy.
         </p>
         <p>
-          Anh cũng không biết phải nói gì hơn nữa ngoài việc xin lỗi vì đã làm em buồn, cảm ơn em vì vẫn còn thương anh, và anh yêu em
-          nhiều lắm.
+          Ngày hôm nay của anh là thế, anh vẫn nhớ em nhiều, vẫn yêu em rất nhiều, và thương em ngày càng nhiều hơn nữa.
         </p>
         <p>
           Yêu em và hôn em,
         </p>
         <p>
-        Chúa đần của em, MHD
+        Người thua thầy Tuấn 50k tiền Xì dách, MHD
         </p>
       </div>
       <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
